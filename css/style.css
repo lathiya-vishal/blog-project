@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Kanit', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.justify-content{
+    justify-content: center;
+}
+.align-items{
+    align-items: center;
+}
+.w-50{
+    width: 50%;
+    padding: 15px;
+}
+.text-center{
+    text-align: center;
+}
+.padding-100{
+    padding: 100px 0;
+}
+/* header  */
+header {
+    background: linear-gradient(90deg, rgba(13,95,98,1) 7%, rgba(52,13,98,1) 92%);
+    background-image: url(../img/v760-toon-50.jpg);
+    background-size: cover;
+    background-position: bottom;
+    padding: 15px 0;
+}
+header nav ul li a{
+    padding: 0px 10px;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: all 0.5s;
+
+}
+header i{
+    color: black;
+}
+.search{
+    background-color: white;
+    border-radius: 10px;
+}
+header .search i{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+header .search input{
+    padding: 10px ;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+header .login a{
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+header .login a:hover{
+    background-color: black;
+
+}
+header .logo a , footer .logo a{
+    font-size: 50px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+header nav ul li a:hover{
+    background-color: black;
+}
+
+/* banner  */
+.banner{
+    background-image: url(../img/v760-toon-50.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.banner h1{
+    font-size: 50px;
+    padding: 100px 0;
+    text-transform: uppercase;
+    color: white;
+}
+
+/* about */
+.about{
+    background-image: url(../img/banner-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+    background-position: center;
+}
+.about h3{
+    color: white;
+    font-size: 40px;
+    text-decoration: underline;
+}
+.about p{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+/* sign up  */
+.signup{
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+
+}
+.signup-form{
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 40%;
+    margin: auto;
+    border: 5px solid black;
+}
+.signup-form input{
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+}
+.signup-form input::placeholder{
+    padding-left: 10px;
+}
+.signup-form label{
+    display: block;
+    padding-bottom: 10px;
+}
+.signup-form button{
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+.signup-form button a{
+    color: white;
+}
+.signup-form p{
+    text-align: center;
+    margin-top: 10px;
+}
+.signup-form p a{
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: underline;
+    color: blue;
+}
+
+
+
+/* sign in */
+
+footer{
+    padding: 20px;
+    background-image: url(../img/banner-bg.jpg);
+}
+.copyright p{
+    color: rgba(255, 255, 255, 0.648);
+    font-size: 20px;
+}
+.copyright span{
+    color: white;
+}
